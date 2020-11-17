@@ -5,4 +5,4 @@ I have done this exercice during my studies at WebForce3. This integration has b
 
 You can see the final page below:
 
-![Result screenshot](Screenshot_integration_web.png)
+![Result screenshot](images/Screenshot_integration_web.png)
