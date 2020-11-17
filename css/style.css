@@ -1,0 +1,312 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.up_cases {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+#head_header {
+    background-color: #FAFAFA;
+    padding: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.margin {
+    width: 75%;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+#nav_p {
+    display: inline;
+    padding: 0 10px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+#fst_btn {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #2ACD72;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+#fst_link {
+    color: #82C87C;
+    font-size: 0.9rem;
+}
+
+#fst_ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 150px 0;
+}
+
+#scd_ul {
+    display: inline;
+    padding-left: 0;
+}
+
+#scd_ul li:first-child {
+    padding-right: 20px;
+}
+
+#li_home {
+    padding-right: 125px;
+}
+
+#fst_ul li a {
+    color: white;
+}
+
+#background {
+    background-image: url(../images/jump-gradient-1.jpg);
+    background-size: cover;
+}
+
+#div_header {
+    padding-bottom: 180px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+#p_div_header {
+    color: rgba(255, 255, 255);
+    font-weight: 500;
+    font-size: 3.3rem;
+    text-shadow: -1px 2px rgba(0, 0, 0, 0.4);
+    padding: 0 355px 20px 0;
+}
+
+#a_div_header {
+    background-color: #F8DB49;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+}
+
+#span_div_header {
+    color: #2ACD72;
+    font-weight: 500;
+    font-size: 3.3rem;
+    text-shadow: -1px 2px rgba(0, 0, 0, 0.4);
+}
+
+main {
+    margin-top: 80px;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.p_div_section {
+    margin: 20px 215px 50px 215px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.container_1 {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
+
+.container_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.slide {
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.slide_1 {
+    background-color: #2ACD72;
+}
+
+.slide_2 {
+    background-color: #5CB9E7;
+}
+
+h4 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.slide p {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.slide a {
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.bck_color {
+    padding: 60px 0;
+    background-color: rgba(250, 250, 250);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.p_style {
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 20px 230px;
+}
+
+.marginb {
+    margin-bottom: 50px;
+}
+
+.circle {
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 50px;
+    margin: 30px;
+}
+
+.circle_1 {
+    background-color: #7DC677;
+    box-shadow: 0px 0px 0px 4px #C0E4BD;
+}
+
+.circle_2 {
+    background-color: #E84B39;
+    box-shadow: 0px 0px 0px 4px #F0938A;
+}
+
+.circle_3 {
+    background-color: #2481BA;
+    box-shadow: 0px 0px 0px 4px #C0DAEB;
+}
+
+.circle_4 {
+    background-color: #F39D0A;
+    box-shadow: 0px 0px 0px 4px #FBE2B9;
+}
+
+.circle_5 {
+    background-color: #9C59B7;
+    box-shadow: 0px 0px 0px 4px #E2CEEA;
+}
+
+.circle_6 {
+    background-color: #2ACD72;
+    box-shadow: 0px 0px 0px 4px #C1F0D5;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.container_2 div p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.opacity {
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.container_3 {
+    padding: 70px 0;
+    background-color: #57D78E;
+}
+
+.container_3 div {
+    color: white;
+}
+
+.style_h2 {
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.container_3 i {
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.container_3 img {
+    border-radius: 50%;
+    width: 10%;
+    box-shadow: 0px 0px 0px 3px #89E1AF;
+    margin: 20px 0;
+}
+
+h6 {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #303030;
+    border-top: 1px solid white;
+    padding: 15px 0 40px 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav > li:first-of-type {
+    margin-right: 15px;
+}
+
+.foot_txt_style {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.round_icon {
+    font-size: 30px;
+}
